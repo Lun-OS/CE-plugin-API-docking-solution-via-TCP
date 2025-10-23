@@ -5,8 +5,8 @@
 - 控制程序（PC 端）：基于 Win32/DX11/Dear ImGui 的图形客户端，通过 CEQP 协议进行连接、内存读写、模块操作与指针链解析。
 
 相关文档：
-- 插件说明：`plugin//README.md`
-- 控制程序说明：`/README.md`
+- 插件说明：`plugin/README.md`
+- 控制程序说明：`cpp_docking_example/README.md`
 
 ---
 
