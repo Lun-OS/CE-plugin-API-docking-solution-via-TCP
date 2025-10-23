@@ -5,37 +5,21 @@
 - 控制程序（PC 端）：基于 Win32/DX11/Dear ImGui 的图形客户端，通过 CEQP 协议进行连接、内存读写、模块操作与指针链解析。
 
 相关文档：
-- 插件说明：`plugin/TCP_UDP/README.md`
-- 控制程序说明：`imgui控制程序/README.md`
-- 对接细节：`插件对接文档.md`
+- 插件说明：`plugin//README.md`
+- 控制程序说明：`/README.md`
 
 ---
 
 ## 目录结构
 ```
-e:\VSPSC\UDP_TCP\
-├── plugin\
-│   └── TCP_UDP\            (CE 插件源码与说明)
-│       ├── README.md
-│       ├── tcp_udp_plugin.cpp
-│       ├── TCP_UDP.sln / .vcxproj*
-│       ├── run.lua          (Lua 一键启动服务：QAQ(9178))
-│       └── x64\Release\     (编译产物)
-├── imgui控制程序\           (控制程序源码与说明)
-│   ├── README.md
-│   ├── ImGui\               (Dear ImGui 源码与 Win32/DX11 后端)
-│   ├── CETCP.h/.cpp         (CEQP 客户端实现)
-│   ├── main.cpp             (覆盖层窗口 + UI)
-│   └── imgui-test.sln
-└── 插件对接文档.md
+我好懒啊，我不想写注释qwq
 ```
 
 ---
 
 ## 快速开始
-1. 编译并加载插件（CE 端）：
-   - 打开 `plugin/TCP_UDP/TCP_UDP.sln`，选择与 CE 一致的位数（建议 `Release|x64`）。
-   - 生成 `TCP_UDP.dll`，在 CE 插件管理器中加载或放入 `plugins` 目录。
+1. 编译
+    -略
 2. 启动 CEQP 服务端：
    - 在 CE 的 Lua 窗口执行 `plugin/TCP_UDP/run.lua`（默认 `QAQ(9178)` 监听）。
 3. 编译并启动控制程序（PC 端）：
