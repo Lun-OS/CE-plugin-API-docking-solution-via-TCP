@@ -1,3 +1,11 @@
+# 此项目已经重构，建议查看另一个仓库https://github.com/Lun-OS/CEQP
+-
+-
+-
+-
+-
+-
+-
 # CEQP 项目总览（Cheat Engine 插件 + ImGui 控制程序）
 
 本项目由两部分组成：
